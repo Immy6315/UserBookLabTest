@@ -5,7 +5,9 @@ Users who need to Book Lab Test/ Book Lab Test Package for them or their Family 
 
 **Explanation:** *Api endpoint for DataSet : https://5f1a8228610bde0016fd2a74.mockapi.io/getTestList*.
 ## NOTE
-After cloning open cmd from that folder and run your mysql or you can run xampp and run apache and mysql these command
+After cloning open cmd from that folder and run these commans given below andd your mysql or you can run xampp and run apache and mysql 
+
+# Commands
 
 *1:npm install*
 *2:npm run model:migrate*

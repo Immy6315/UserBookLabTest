@@ -16,6 +16,6 @@ Users who need to Book Lab Test/ Book Lab Test Package for them or their Family 
 
 you can hit url to get token http://localhost:8081/v1/login as shown in figure and get token for other api's.
 
-![Login](/login.png)
+![Login](/login.PNG)
 
 

@@ -78,7 +78,7 @@ input addPack{
 
 ```
 
-## 2-Query 
+## Queries
 
     # 1. getPackages : 
     It is used to get all packages with filter like SNo, itemId, itemName, type, Keyword, url, labName, userPackages 
@@ -751,7 +751,7 @@ query getpackages($input:In){
 
 ```
     
-## 2-Mutation
+## Mutations
 
     # 1. addPackage: is used to store package in user's account.
    

@@ -1,0 +1,51 @@
+type Query {
+    getPackages (in:In):[Package]
+    userPackages:[Package]
+}
+type Package{
+    id: Int
+    SNo: Int
+    itemId: String
+    itemName: String
+    type: String
+    Keyword: String
+    BestSellers: String
+    testCount: Int
+    IncludedTests: String
+    url: String
+    minPrice: Int
+    labName: String
+    fasting: Int
+    availableAt: Int
+    popular: String
+    category: String
+    objectID: String
+}
+
+input In{
+    SNo: Int
+    itemId: String
+    itemName: String
+    type: String
+    Keyword: String
+    url: String
+    labName: String
+}
+
+type Mutation{
+    addPackage(in:addPack):addedPackage!
+    deletePackage(in:addPack):Int!
+}
+
+type addedPackage{
+    id: Int
+    packageId: Int
+    username: String
+    updatedAt: String
+    createdAt: String
+}
+
+input addPack{
+    username:String
+    packageId:Int
+}
